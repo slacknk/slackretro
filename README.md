@@ -15,7 +15,7 @@ Console |Libretro |Other Emulators
 **NES**       |[fceu-mm](https://github.com/libretro/libretro-fceumm)               |[puNES](http://forums.nesdev.com/viewtopic.php?f=3&t=6928)
 **SMD/MS/GG** |[genesis-plus-gx](https://docs.libretro.com/library/genesis_plus_gx/)|[Kega-Fusion](https://www.carpeludum.com/kega-fusion/) (!lib32)
 **SNES**      |[snes9x2005-catsfc](https://docs.libretro.com/library/snes9x_2005/)  |[snes9x](https://github.com/snes9xgit/snes9x)-gtk2
-**PCE**       |                                                                     |[Hu-Go!](https://www.zeograd.com/parse.php?src=hugof&path=0,1,) (!lib32)
+**PCE**       |[pcefast-supergrafx](https://github.com/libretro/beetle-supergrafx-libretro)|[Hu-Go!](https://www.zeograd.com/parse.php?src=hugof&path=0,1,) (!lib32)
 **PS1**       |[pcsx-rearmed](https://docs.libretro.com/library/pcsx_rearmed/)      |[ePSXe-Win](https://www.epsxe.com/) (!WINE)
 
 * Gamepad-tool: [antimicro](https://github.com/AntiMicro/antimicro)
