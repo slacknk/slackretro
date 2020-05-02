@@ -31,3 +31,6 @@ Console |Libretro |Other Emulators
 `Tales of Phantasia (J) [T+Eng1.2_LowCase DeJap (12.02.2001)]`
   * `snes9x2005-plus` - замечено расхождение во звуке и некорректности графики
   * через `snes9x2005_git20190914.e5cadd2.655` - все нормально
+#### SMS
+`Master of Darkness (EB) [!]`
+* `smsplus-gx-20200425.209_72b9bdc_1.3`, к сожалению, к данной игре не подошел ни один готовый чит из [libretro-database](https://github.com/libretro/libretro-database/tree/master/cht/Sega%20-%20Master%20System%20-%20Mark%20III)
