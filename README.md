@@ -34,4 +34,4 @@ Console |Libretro |Other Emulators
 #### SMS
 `Master of Darkness (EB) [!]`
 * `smsplus-gx-20200425.209_72b9bdc_1.3`, к сожалению, к данной игре не подошел ни один готовый чит из [libretro-database](https://github.com/libretro/libretro-database/tree/master/cht/Sega%20-%20Master%20System%20-%20Mark%20III)
-* gearsystem-`20200421.649_21c61a1_3.0.3.4` + genesisplus-gx-`20200208.1580_5055106_1.7.4`, а вот с этим, нормально все прошло: [Gearsystem](https://github.com/drhelius/Gearsystem)
+* [gearsystem](https://github.com/drhelius/Gearsystem)-`20200421.649_21c61a1_3.0.3.4` + [genesisplus-gx](https://github.com/libretro/Genesis-Plus-GX)-`20200208.1580_5055106_1.7.4`, а вот с этими, нормально все прошло
