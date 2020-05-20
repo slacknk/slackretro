@@ -27,6 +27,12 @@ Console |Libretro |Other Emulators
 `Digital Devil Monogatari - Megami Tensei (J) [T+Eng1.00 SGST&Stardust&Tom (24.01.2018)]`
 * Не запускается данный пропатченный ROM в `quicknes_20190914.cd302d9.451` и `nestopia-ue_20191127.3aab0a3.9`,
 * через `fceu-mm_20191211.58030a3.785` и `mesen_20180802.1a7f07cf.2261` - игра запускается
+##### QuickNES_Core
+* https://github.com/kode54/QuickNES
+* https://github.com/libretro/QuickNES_Core
+
+`libretro_quicknes-20200107.454_3165481_1.0WIP`- замечена несовместимость save'ов. Если такое случилось, то save_state спасет, в них состояние карт памяти еще пишется. Через `libretro/QuickNES_Core` вроде нормально все грузится от игры пускаемой в Nestopia и Fceumm, если попробуем `kode54/QuickNES_Core`, он не увидет, если воспользуемся save_state и загрузимся на последнее место - состояние памяти еще вернется (а еще в `libretro/QuickNES_Core` меню настроек есть в отличие от `kode54/QuickNES_Core`).
+
 #### SNES
 `Tales of Phantasia (J) [T+Eng1.2_LowCase DeJap (12.02.2001)]`
   * `snes9x2005-plus` - замечено расхождение во звуке и некорректности графики
