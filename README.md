@@ -11,7 +11,7 @@ Console |Libretro |Other Emulators
 :---:         |:---:                                                                |:---: 
 **Arcade**    |[fbneo](https://github.com/libretro/FBNeo)                           |[mame](https://www.mamedev.org/)_0.185
 **DOS**       |                                                                     |[ScummVM](https://www.scummvm.org/), [DOSBox](https://www.dosbox.com/)
-**GB/GBC/GBA**|                                                                     |[vba](https://sourceforge.net/projects/vbam/files/)-gtk2, [mgba](https://mgba.io/)-qt5
+**GB/GBC/GBA**|[vbam](https://github.com/libretro/vbam-libretro)                    |[vba](https://sourceforge.net/projects/vbam/files/)-gtk2, [mgba](https://mgba.io/)-qt5
 **NES**       |[fceu-mm](https://github.com/libretro/libretro-fceumm)               |[puNES](http://forums.nesdev.com/viewtopic.php?f=3&t=6928)
 **SMD/MS/GG** |[genesis-plus-gx](https://docs.libretro.com/library/genesis_plus_gx/)|[Kega-Fusion](https://www.carpeludum.com/kega-fusion/) (!lib32)
 **SNES**      |[snes9x2005-catsfc](https://docs.libretro.com/library/snes9x_2005/)  |[snes9x](https://github.com/snes9xgit/snes9x)-gtk2
