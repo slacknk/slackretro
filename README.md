@@ -33,6 +33,24 @@ Console |Libretro |Other Emulators
 
 `libretro_quicknes-20200107.454_3165481_1.0WIP`- замечена несовместимость save'ов. Если такое случилось, то save_state спасет, в них состояние карт памяти еще пишется. Через `libretro/QuickNES_Core` вроде нормально все грузится от игры пускаемой в Nestopia и Fceumm, если попробуем `kode54/QuickNES_Core`, он не увидет, если воспользуемся save_state и загрузимся на последнее место - состояние памяти еще вернется (а еще в `libretro/QuickNES_Core` меню настроек есть в отличие от `kode54/QuickNES_Core`).
 
+##### FCEUmm
+* `Metroid`
+* `Castlevania II: Simon's Quest`
+* `Teenage Mutant Ninja Turtles III: The Manhattan Project`
+
+Есть информация, то что Metroid на NES через эмулятор (Nestopia, puNES, FCEU-X) при немалом кол-ве врагов на экране начинает тормозить. И в Castlevania II аналогичное поведение с большим количеством врагов и это не мерцание с отрисовкой, чистый подвисания. Для [libretro-fceumm](https://docs.libretro.com/library/fceumm/#core-options) в конфиге прописываем или в меню выставляем
+```
+fceumm_overclocking = "2x-VBlank
+```
+должно помочь. И еще можно вот это 
+```
+fceumm_nospritelimit = "enabled"
+```
+> Overclocking [fceumm_overclocking] (disabled|2x-Postrender|2x-VBlank)
+>> Overclocks the NES using PPU method to minimize ingame slowdowns of some games. Contra Force needs VBlank mode (stage 3 slowdowns). Choose which ever minimizes slowdowns without image distortion.
+
+это позволит мерцание/полуотрисовку отключить 
+
 #### SNES
 `Tales of Phantasia (J) [T+Eng1.2_LowCase DeJap (12.02.2001)]`
   * `snes9x2005-plus` - замечено расхождение во звуке и некорректности графики
