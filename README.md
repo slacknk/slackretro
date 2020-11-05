@@ -2,7 +2,7 @@
 
 * [Title](https://github.com/slacknk/slackretro/blob/master/README.md#slackware-and-retrogaming)
 * [Recommend](https://github.com/slacknk/slackretro/blob/master/README.md#recommend)
-* Libretro-notes:(https://github.com/slacknk/slackretro/blob/master/README.md#libretro-notes)
+* [Libretro-notes:](https://github.com/slacknk/slackretro/blob/master/README.md#libretro-notes)
   * [NES](https://github.com/slacknk/slackretro/blob/master/README.md#nes)
   * [SNES](https://github.com/slacknk/slackretro/blob/master/README.md#snes)
   * [SNES](https://github.com/slacknk/slackretro/blob/master/README.md#sms)
