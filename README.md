@@ -1,5 +1,12 @@
 > # Slackware, a retro? I don't think so!
 
+Title
+* Recommend
+* Libretro-notes
+  * NES
+  * SNES
+  * SNES
+
 ## Slackware and RetroGaming
 Collection of Packages for Slackware-stable
 * Builded from sources on `slackware64-14.2`
