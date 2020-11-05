@@ -1,11 +1,11 @@
 > # Slackware, a retro? I don't think so!
 
-Title
-* Recommend
-* Libretro-notes
-  * NES
-  * SNES
-  * SNES
+* [Title](https://github.com/slacknk/slackretro/blob/master/README.md#slackware-and-retrogaming)
+* [Recommend](https://github.com/slacknk/slackretro/blob/master/README.md#recommend)
+* Libretro-notes:
+  * [NES](https://github.com/slacknk/slackretro/blob/master/README.md#nes)
+  * [SNES](https://github.com/slacknk/slackretro/blob/master/README.md#snes)
+  * [SNES](https://github.com/slacknk/slackretro/blob/master/README.md#sms)
 
 ## Slackware and RetroGaming
 Collection of Packages for Slackware-stable
