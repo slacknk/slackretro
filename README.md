@@ -5,7 +5,7 @@
 * [Libretro-notes:](https://github.com/slacknk/slackretro/blob/master/README.md#libretro-notes)
   * [NES](https://github.com/slacknk/slackretro/blob/master/README.md#nes)
   * [SNES](https://github.com/slacknk/slackretro/blob/master/README.md#snes)
-  * [SNES](https://github.com/slacknk/slackretro/blob/master/README.md#sms)
+  * [SMS](https://github.com/slacknk/slackretro/blob/master/README.md#sms)
 
 ## Slackware and RetroGaming
 Collection of Packages for Slackware-stable
