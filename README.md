@@ -72,6 +72,12 @@ fceumm_nospritelimit = "enabled"
 здесь в помощь придти данный параметр может: [Reduce Slowdown](https://docs.libretro.com/library/snes9x/#core-options) (Hack, Unsafe) [snes9x_overclock_cycles], но там же на статье в вики есть приписка (так что учитывайте):
 > max: Reduce slowdown as much as possible but will break more games.
 
+###### Мерцания
+к этой же проблеме можно отнести и различные мерцания, так в игре `Clock Tower (J) [T+Eng1.01 AGTP (10.09.2001)]`, при диалогах можно замечать различный мерцания, выход из проблемы аналогичный, [Reduce Slowdown](https://docs.libretro.com/library/snes9x_2005/)
+> Many games for the SNES suffered from slowdown due to the weak main CPU. This option helps allievate that at the cost of possible bugs.
+> * compatible: Reduce slowdown but keep as much game compatibility as much as possible.
+> * max: Reduce slowdown as much as possible but will break more games.
+
 #### SMS
 `Master of Darkness (EB) [!]`
 * `smsplus-gx-20200425.209_72b9bdc_1.3`, к сожалению, к данной игре не подошел ни один готовый чит из [libretro-database](https://github.com/libretro/libretro-database/tree/master/cht/Sega%20-%20Master%20System%20-%20Mark%20III)
