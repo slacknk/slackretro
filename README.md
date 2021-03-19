@@ -62,6 +62,16 @@ fceumm_nospritelimit = "enabled"
 `Tales of Phantasia (J) [T+Eng1.2_LowCase DeJap (12.02.2001)]`
   * `snes9x2005-plus` - замечено расхождение во звуке и некорректности графики
   * через `snes9x2005_git20190914.e5cadd2.655` - все нормально
+##### Slowdown
+замечено в играх: 
+* `Super Ghouls 'N Ghosts (U) [!]`
+* `Demon's Crest (U) [!]` и на ядрах эмуляторов
+  * `snes9x-20210314.2010_0655370_1.60.1859-x86_64-1.9.0`
+  * `snes9x2005-catsfc-20210311.713_dcb2299_1.36.376-x86_64-1.9.0`
+
+здесь в помощь придти данный параметр [Reduce Slowdown](https://docs.libretro.com/library/snes9x/#core-options) (Hack, Unsafe) [snes9x_overclock_cycles], но там же на статье в вики есть приписка (так что учитывайте):
+> max: Reduce slowdown as much as possible but will break more games.
+
 #### SMS
 `Master of Darkness (EB) [!]`
 * `smsplus-gx-20200425.209_72b9bdc_1.3`, к сожалению, к данной игре не подошел ни один готовый чит из [libretro-database](https://github.com/libretro/libretro-database/tree/master/cht/Sega%20-%20Master%20System%20-%20Mark%20III)
