@@ -69,7 +69,7 @@ fceumm_nospritelimit = "enabled"
   * `snes9x-20210314.2010_0655370_1.60.1859-x86_64-1.9.0`
   * `snes9x2005-catsfc-20210311.713_dcb2299_1.36.376-x86_64-1.9.0`
 
-здесь в помощь придти данный параметр [Reduce Slowdown](https://docs.libretro.com/library/snes9x/#core-options) (Hack, Unsafe) [snes9x_overclock_cycles], но там же на статье в вики есть приписка (так что учитывайте):
+здесь в помощь придти данный параметр может: [Reduce Slowdown](https://docs.libretro.com/library/snes9x/#core-options) (Hack, Unsafe) [snes9x_overclock_cycles], но там же на статье в вики есть приписка (так что учитывайте):
 > max: Reduce slowdown as much as possible but will break more games.
 
 #### SMS
