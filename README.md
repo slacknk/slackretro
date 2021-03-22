@@ -78,6 +78,10 @@ fceumm_nospritelimit = "enabled"
 > * compatible: Reduce slowdown but keep as much game compatibility as much as possible.
 > * max: Reduce slowdown as much as possible but will break more games.
 
+Эта же игра хороша для проверки Flickering, просто пойдите по сюжету в ванную комнату и атм будет туман и прочие эффекты
+> Reduce Flickering (Hack, Unsafe) [catsfc_reduce_sprite_flicker] (disabled|enabled)
+>> Raises sprite limit to reduce flickering in games.
+
 #### SMS
 `Master of Darkness (EB) [!]`
 * `smsplus-gx-20200425.209_72b9bdc_1.3`, к сожалению, к данной игре не подошел ни один готовый чит из [libretro-database](https://github.com/libretro/libretro-database/tree/master/cht/Sega%20-%20Master%20System%20-%20Mark%20III)
